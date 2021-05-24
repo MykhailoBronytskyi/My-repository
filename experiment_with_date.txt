@@ -1,0 +1,19 @@
+Today 06/06/2021
+
+Experiment_1: >git add *
+              >set GIT_COMMITTER_DATE="Mon May 17 22:50:23 2021 +0200"
+              >git commit --amend --date="Mon May 17 22:50:23 2021 +0200" -m "submit"
+              >git push --force
+
+Experiment_2: (Wrong date : Fri)
+              >git add *
+              >set GIT_COMMITTER_DATE="Fri May 17 22:50:23 2021 +0200"
+              >git commit --amend --date="Fri May 17 22:50:23 2021 +0200" -m "submit"
+              >git push --force
+(First commit Experiment_1 was changed and disappear)
+
+Experiment_3: (Fix date : Mon)
+              >git add *
+              >set GIT_COMMITTER_DATE="Mon May 17 23:50:23 2021 +0200"
+              >git commit --amend --date="Mon May 17 23:50:23 2021 +0200" -m "submit"
+              >git push --force
