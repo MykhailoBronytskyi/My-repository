@@ -19,5 +19,6 @@ Experiment_3: (Fix date : Mon)
               >git commit --amend --date="Mon May 17 23:50:23 2021 +0200" -m "submit"
               >git push --force
 
-
+Experiment_4: 
+              >set GIT_COMMITTER_DATE="2021/06/01/13:50:50 +0200"
 
