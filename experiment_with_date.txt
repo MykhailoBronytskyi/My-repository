@@ -24,4 +24,11 @@ Experiment_4: >set GIT_COMMITTER_DATE="2021/06/01/13:50:50 +0200"
 
 
 Experiment_5: >set GIT_COMMITTER_DATE="2021/06/02/13:50:50 +0200"
+              >git commit -m "second new date"
+              >git push
+
+
+Experiment_6: 
+              >git commit -m "third but not new date"
+              >git push
               
